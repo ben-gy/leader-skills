@@ -66,6 +66,7 @@ function renderFooter() {
     <footer class="site-footer">
       <p>Leader Skills — explore well-documented leaders, then build your own operating system.</p>
       <p class="small">All practices cited from public sources. SVG monogram avatars are copyright-free.</p>
+      <p><span class="credit">Made by <a class="chicago-font" href="https://ben.gy" target="_blank" rel="noopener noreferrer">ben.gy</a></span></p>
     </footer>
   `;
 }
