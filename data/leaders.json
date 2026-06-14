@@ -1,0 +1,1194 @@
+{
+  "version": 1,
+  "categories": [
+    { "id": "mind", "label": "Mind", "blurb": "Mental models, decision frameworks, what they pay attention to." },
+    { "id": "body", "label": "Body", "blurb": "Sleep, food, exercise, energy management." },
+    { "id": "routine", "label": "Routine", "blurb": "Calendar, daily structure, time-blocking, work rhythms." },
+    { "id": "team", "label": "Team", "blurb": "Hiring, org design, delegation, meetings." },
+    { "id": "vision", "label": "Vision", "blurb": "Long-term thinking, big bets, strategy, mission." },
+    { "id": "communication", "label": "Communication", "blurb": "Writing, speaking, transparency, information flow." },
+    { "id": "culture", "label": "Culture", "blurb": "Values, rituals, norms, what gets celebrated and what gets punished." }
+  ],
+  "leaders": [
+    {
+      "id": "bezos",
+      "name": "Jeff Bezos",
+      "role": "Founder & Executive Chairman",
+      "company": "Amazon",
+      "era": "1994–present",
+      "origin": "USA",
+      "archetype": "The Long-Term Operator",
+      "tagline": "Run today like Day 1, decide for a 20-year horizon, and protect the morning at all costs.",
+      "bio": "Founded Amazon in 1994 from a Seattle garage. Led for 27 years as CEO before stepping back to chair the board and focus on Blue Origin. Built one of the most durable operating systems for big-company decision-making in business history.",
+      "avatar": { "monogram": "JB", "color": "#ff9900" },
+      "tags": ["long-term", "writing-culture", "small-teams", "customer-obsession", "first-principles"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Regret Minimization Framework",
+          "what": "When facing a big life decision, project yourself to age 80 and ask which choice will leave you with fewer regrets.",
+          "why": "Fear of failure is loud in the present and almost silent at 80; regret about not trying is the opposite. Bezos invented this device to neutralize loss aversion at the decision point — it pulled him out of a comfortable Wall Street job to start Amazon.",
+          "source": "Bezos, Academy of Achievement interview, 2001",
+          "sourceUrl": "https://achievement.org/achiever/jeffrey-p-bezos/"
+        },
+        {
+          "category": "routine",
+          "title": "No High-Stakes Decisions After 1pm",
+          "what": "Reserves all major decisions for the morning, when his energy is highest. Afternoons are for low-stakes meetings, exercise, and family.",
+          "why": "Decision quality is energy-bound, not time-bound. By treating his prefrontal cortex like a finite resource, he gets one peak block per day and refuses to spend it on operational noise. Three high-quality decisions a day, he says, is plenty.",
+          "source": "Lex Fridman podcast with Bezos, 2023",
+          "sourceUrl": "https://lexfridman.com/jeff-bezos/"
+        },
+        {
+          "category": "routine",
+          "title": "Slow Mornings & Puttering",
+          "what": "Wakes naturally, reads the paper, has coffee with his partner, plays with his kids before his first work meeting around 10am.",
+          "why": "He frames sleep as a multiplier on every hour of decision-making that follows. The slow morning isn't indulgence — it's the on-ramp that makes the late-morning decision block actually high-quality.",
+          "source": "Bezos at Economic Club, 2018",
+          "sourceUrl": "https://www.cnbc.com/2018/09/13/jeff-bezos-this-is-how-i-make-amazons-highest-stakes-decisions.html"
+        },
+        {
+          "category": "team",
+          "title": "Two-Pizza Teams",
+          "what": "No team should be larger than what two pizzas can feed — roughly 6 to 10 people.",
+          "why": "Communication overhead grows exponentially with team size. Small teams ship faster, own more, and can be held accountable for outcomes rather than activity. Above ten people, coordination starts eating the work.",
+          "source": "Working Backwards (Bryar & Carr, 2021)",
+          "sourceUrl": "https://www.workingbackwards.com/"
+        },
+        {
+          "category": "communication",
+          "title": "Six-Page Narrative Memos",
+          "what": "PowerPoint is banned in S-team meetings. Major proposals are written as 6-page narrative memos and read silently together for the first 20–30 minutes of the meeting.",
+          "why": "Writing in complete sentences forces the author to discover whether their argument actually holds. Bullets let you hide weak thinking; prose exposes it. Silent reading means everyone enters discussion with the same context — no one can bluff with charisma.",
+          "source": "Bezos 2017 shareholder letter",
+          "sourceUrl": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"
+        },
+        {
+          "category": "vision",
+          "title": "Day 1 Mentality",
+          "what": "Treats every day as the company's first day. Day 2, he says, is stasis followed by irrelevance, decline, and death.",
+          "why": "Big organisations decay by drifting from customers into process. 'Day 1' is the antidote: keep deciding fast, keep listening to customers, resist proxies for the real thing. It's a permanent posture, not a startup phase you graduate from.",
+          "source": "Bezos 2016 shareholder letter",
+          "sourceUrl": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders"
+        },
+        {
+          "category": "mind",
+          "title": "Working Backwards from the Customer",
+          "what": "New products start with a press release and FAQ written from the customer's perspective — before any engineering begins.",
+          "why": "If you can't write a compelling press release for the finished product, the product isn't compelling. Working backwards forces clarity about who it's for and why they'd care before sunk cost makes the idea hard to kill.",
+          "source": "Working Backwards (Bryar & Carr, 2021)"
+        }
+      ],
+      "sources": [
+        { "label": "Working Backwards (book)", "url": "https://www.workingbackwards.com/" },
+        { "label": "Bezos on Lex Fridman", "url": "https://lexfridman.com/jeff-bezos/" },
+        { "label": "Bezos shareholder letters", "url": "https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders" }
+      ]
+    },
+    {
+      "id": "jobs",
+      "name": "Steve Jobs",
+      "role": "Co-founder & CEO",
+      "company": "Apple",
+      "era": "1976–2011",
+      "origin": "USA",
+      "archetype": "The Editor",
+      "tagline": "Decide what the company is by deciding what it isn't.",
+      "bio": "Co-founded Apple in 1976, was forced out in 1985, founded NeXT and bought Pixar, returned to Apple in 1997 and led the iPod, iPhone, and iPad eras until his death in 2011. Treated taste, refusal, and design as the central acts of leadership.",
+      "avatar": { "monogram": "SJ", "color": "#1d1d1f" },
+      "tags": ["focus", "design-led", "taste", "a-players", "refusal"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Say No to a Thousand Things",
+          "what": "Treated focus as a subtractive act. Famously killed most of Apple's product lines on his return in 1997, leaving a four-square grid: consumer/pro × desktop/portable.",
+          "why": "Focus isn't choosing what to do — it's choosing what to refuse. He believed companies die from too many half-good products, not from too few. Every yes costs the time, energy, and attention of the better thing you could have done instead.",
+          "source": "Jobs at Apple WWDC 1997"
+        },
+        {
+          "category": "mind",
+          "title": "Connect the Dots Looking Backwards",
+          "what": "Trusted that seemingly unrelated experiences (calligraphy, Eastern philosophy, animation) would compound into something coherent later, even though no causal plan was visible at the time.",
+          "why": "You can't predict the future, but you can trust that curiosity and craft compound. The job is to put yourself in places where dots get drawn, not to map them in advance.",
+          "source": "Jobs Stanford commencement address, 2005",
+          "sourceUrl": "https://news.stanford.edu/2005/06/14/jobs-061505/"
+        },
+        {
+          "category": "routine",
+          "title": "Same Outfit Every Day",
+          "what": "Black turtleneck, jeans, New Balance sneakers — a self-imposed uniform.",
+          "why": "Removes a daily decision that doesn't matter, freeing decision-energy for ones that do. It's the same logic as Bezos's morning cut-off: treat attention as a scarce resource and protect it from trivia.",
+          "source": "Walter Isaacson, Steve Jobs (2011)"
+        },
+        {
+          "category": "team",
+          "title": "A-Players Only",
+          "what": "Insisted on hiring only A-players, on the theory that A-players hire other A-players, while B-players hire C-players to feel superior.",
+          "why": "Talent density compounds or decays — there's no flat. Once you let in even a few B-players, the org spirals downward because the people who set the standard become the people defining the floor.",
+          "source": "Jobs at WWDC 1997"
+        },
+        {
+          "category": "communication",
+          "title": "Walking 1:1s",
+          "what": "Held many one-on-ones as long walks around Palo Alto, not at desks or in conference rooms.",
+          "why": "Walking together rather than facing each other lowers social pressure and makes hard conversations possible. The change of scenery also dislodges stuck thinking — you literally see things from new angles.",
+          "source": "Walter Isaacson, Steve Jobs (2011)"
+        },
+        {
+          "category": "culture",
+          "title": "Design as Integrative Discipline",
+          "what": "Treated design not as the layer applied at the end, but as the integrative discipline that decides what the product actually is.",
+          "why": "Most companies treat design as 'making it look nice' after the engineers have decided what to build. Jobs inverted this: design is the brief, not the polish. That stance is why Apple's products feel like single objects rather than committee outputs.",
+          "source": "Jony Ive interviews"
+        }
+      ],
+      "sources": [
+        { "label": "Stanford commencement, 2005", "url": "https://news.stanford.edu/2005/06/14/jobs-061505/" },
+        { "label": "Steve Jobs (Isaacson)", "url": "https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781451648539" }
+      ]
+    },
+    {
+      "id": "musk",
+      "name": "Elon Musk",
+      "role": "Founder & CEO",
+      "company": "Tesla, SpaceX, xAI",
+      "era": "1999–present",
+      "origin": "USA / South Africa",
+      "archetype": "The First-Principles Builder",
+      "tagline": "Reduce every problem to physics, then attack with the smallest possible technical team.",
+      "bio": "Co-founded Zip2 and PayPal, founded SpaceX (2002) and led Tesla, Neuralink, The Boring Company, xAI, and X. Builds capital-intensive engineering companies by collapsing the org chart and running hardware programs at software cadence.",
+      "avatar": { "monogram": "EM", "color": "#cc0000" },
+      "tags": ["first-principles", "small-teams", "hardcore", "mission-driven", "manufacturing"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "First-Principles Reasoning",
+          "what": "Decompose every problem to its physical or mathematical constraints, then reason up from there — rather than reasoning by analogy from how things are usually done.",
+          "why": "Analogies inherit assumptions. First-principles thinking lets you find the unphysical assumption that everyone else accepts as given — and that's where the 10x cost reductions live. SpaceX was built on noticing that rocket cost wasn't bounded by physics, only by procurement habits.",
+          "source": "Musk interviews, multiple"
+        },
+        {
+          "category": "mind",
+          "title": "The 5-Step Engineering Process",
+          "what": "Question every requirement (and attribute it to a person, not a department); delete the part or process; simplify; accelerate cycle time; automate. In that order.",
+          "why": "Most engineers skip to automation. Musk insists the first four steps are where the wins live — automating a process you should have deleted is a permanent tax. Doing them in order prevents you from optimising something that shouldn't exist.",
+          "source": "Musk Everyday Astronaut tour, 2021",
+          "sourceUrl": "https://www.youtube.com/watch?v=t705r8ICkRw"
+        },
+        {
+          "category": "team",
+          "title": "Small Expert Technical Teams",
+          "what": "Builds engineering organisations as thin layers of senior individual contributors who can be in design reviews with him directly. Skip-level access is the default.",
+          "why": "Big engineering orgs lose information at every layer. Musk wants the people doing the work to be the people he talks to — managers exist to enable, not to interpret. The smaller the team, the less translation, the higher the resolution of the decisions.",
+          "source": "Walter Isaacson, Elon Musk (2023)"
+        },
+        {
+          "category": "team",
+          "title": "Fire Fast",
+          "what": "Aggressive about removing under-performers, including senior leaders, often after a single concerning meeting.",
+          "why": "He treats keeping the wrong person as cruelty to the rest of the team — they have to carry the load and lose trust in management's judgment. Speed of firing is a function of how serious you are about talent density.",
+          "source": "Isaacson biography (2023)"
+        },
+        {
+          "category": "communication",
+          "title": "Skip the Chain of Command",
+          "what": "Any engineer at SpaceX or Tesla is encouraged to email him directly or pull him into a problem without going through their manager.",
+          "why": "Information that has to climb the hierarchy gets polished into uselessness. Direct access keeps the leader connected to the actual texture of the work, and signals to the org that the work is what matters, not the politics around it.",
+          "source": "Internal SpaceX email, widely reported"
+        },
+        {
+          "category": "vision",
+          "title": "Mission > Company",
+          "what": "Frames every company around a civilisational mission: SpaceX → multi-planet species; Tesla → sustainable energy; Neuralink → preserve human agency vs AI.",
+          "why": "Engineers will burn out doing hard things for a quarterly target. They will not burn out doing hard things for a goal they believe matters. Tying the company to a mission bigger than the company is how he recruits people he otherwise couldn't afford.",
+          "source": "Musk TED interview, 2017"
+        }
+      ],
+      "sources": [
+        { "label": "Elon Musk (Isaacson)", "url": "https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284" },
+        { "label": "Everyday Astronaut SpaceX tour", "url": "https://www.youtube.com/watch?v=t705r8ICkRw" }
+      ]
+    },
+    {
+      "id": "altman",
+      "name": "Sam Altman",
+      "role": "Co-founder & CEO",
+      "company": "OpenAI",
+      "era": "2005–present",
+      "origin": "USA",
+      "archetype": "The Long-Bet Compounder",
+      "tagline": "High agency, long horizons, and a willingness to look stupid in the meantime.",
+      "bio": "Founded Loopt at 19, sold it, ran Y Combinator from 2014 to 2019, then co-founded OpenAI. Operates on a 10–20 year horizon while shipping on a weekly one, and writes openly about ambition, agency, and what compounds.",
+      "avatar": { "monogram": "SA", "color": "#10a37f" },
+      "tags": ["high-agency", "long-bets", "writing", "ambition", "compound"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "High Agency",
+          "what": "Defines high-agency people as those who, when told a thing is impossible, find another way — or simply do it.",
+          "why": "Almost everyone defers to consensus and rules that aren't actually rules. The biggest career and startup wins come from noticing the difference between a real constraint and a social one, and acting on it. Agency is rarer than intelligence and predicts more.",
+          "source": "Altman blog, 'What I wish someone had told me'",
+          "sourceUrl": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+        },
+        {
+          "category": "mind",
+          "title": "Compound Yourself",
+          "what": "Pick goals that compound — skills, relationships, reputation, capital — and treat exponential outcomes as the only ones worth chasing.",
+          "why": "Most people optimise for linear gain. The mathematics of the world favours compounding: a 1% daily improvement is 37x in a year. Choosing compounding inputs over linear ones is the single biggest leverage available to almost anyone.",
+          "source": "Altman blog, 'How to be successful'",
+          "sourceUrl": "https://blog.samaltman.com/how-to-be-successful"
+        },
+        {
+          "category": "team",
+          "title": "Hire for Slope, Not Y-Intercept",
+          "what": "Optimises for trajectory and rate of improvement over current credentials. Bets on people whose graph is steep, even if they're starting low.",
+          "why": "Where someone is today is a snapshot; where they'll be in three years is the actual hire. A junior person learning at 2x is worth more than a senior person plateaued. Founders consistently underestimate this.",
+          "source": "Altman talks, multiple"
+        },
+        {
+          "category": "vision",
+          "title": "Plan for the Decade, Ship for the Week",
+          "what": "Holds extremely long-horizon goals (AGI, abundance, energy) while running short, hard product cycles — weeks, not quarters.",
+          "why": "The horizon gap is where most companies break: short-term planners under-invest in the future, long-term planners never ship. Holding both at once means today's release feeds a 10-year arc you can name.",
+          "source": "Altman interviews, multiple"
+        },
+        {
+          "category": "communication",
+          "title": "Short, Direct Blog Posts",
+          "what": "Treats his personal blog as the primary leadership channel — short essays in plain prose, no marketing varnish.",
+          "why": "Writing publicly forces clarity and creates a durable artefact. People can re-read and quote you years later. It also pre-positions you on the questions you'll have to answer when you become consequential — you've already worked them out in public.",
+          "source": "blog.samaltman.com",
+          "sourceUrl": "https://blog.samaltman.com/"
+        },
+        {
+          "category": "culture",
+          "title": "Conviction Over Consensus",
+          "what": "Willing to make calls that look obviously wrong to peers in the moment — going non-profit-to-capped-profit, betting on language models pre-2020, releasing ChatGPT before the perfect model.",
+          "why": "If you only do what's already consensus, you only capture average returns. The frontier requires being willing to be temporarily judged as wrong by people whose judgment you respect. Conviction is what lets you hold the position long enough for the world to catch up.",
+          "source": "Altman interviews, multiple"
+        }
+      ],
+      "sources": [
+        { "label": "Sam Altman's blog", "url": "https://blog.samaltman.com/" },
+        { "label": "How to be successful", "url": "https://blog.samaltman.com/how-to-be-successful" }
+      ]
+    },
+    {
+      "id": "chesky",
+      "name": "Brian Chesky",
+      "role": "Co-founder & CEO",
+      "company": "Airbnb",
+      "era": "2008–present",
+      "origin": "USA",
+      "archetype": "The Founder-Mode CEO",
+      "tagline": "Stay in the details. Run product reviews. Refuse to delegate the thing the company is.",
+      "bio": "Co-founded Airbnb in 2008, took it through near-collapse during COVID, IPO'd it in 2020, and reorganised the company around a Jobs-style functional structure. Popularised 'founder mode' as a deliberate alternative to the standard scale-up playbook.",
+      "avatar": { "monogram": "BC", "color": "#ff385c" },
+      "tags": ["founder-mode", "design-led", "functional-org", "in-the-details"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Founder Mode",
+          "what": "Rejects the conventional CEO playbook of 'hire great people and get out of their way'. Stays deeply involved in product, design, and operating decisions across the company.",
+          "why": "Chesky tried the manager-mode playbook and watched Airbnb's product quality drift. He concluded that the founder's job is to be the company's taste — and you can't delegate taste. Founder mode is what lets a company stay coherent past 1,000 people.",
+          "source": "Paul Graham, 'Founder Mode' (Sept 2024)",
+          "sourceUrl": "https://paulgraham.com/foundermode.html"
+        },
+        {
+          "category": "team",
+          "title": "Functional Org, Not Divisional",
+          "what": "Restructured Airbnb in 2020 so that the senior team is organised by function (design, engineering, product, finance) rather than by business unit, with central leadership owning the roadmap.",
+          "why": "Divisional structures optimise for local efficiency at the cost of company-level coherence. A functional structure forces the leadership team to argue out priorities together, so the company ships one thing at a time, well.",
+          "source": "Chesky on Lenny Rachitsky podcast, 2023",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/brian-chesky-after-the-honeymoon-airbnb"
+        },
+        {
+          "category": "communication",
+          "title": "Skip-Level Review of Every Detail",
+          "what": "Runs deep design and product reviews directly, regardless of how many layers separate him from the work. Will weigh in on copy, visuals, animations.",
+          "why": "Detail is fractal — the company-level quality of the product equals the median quality of every decision underneath it. By caring publicly about small things, he calibrates everyone else's bar without writing a policy memo.",
+          "source": "Founder Mode (Paul Graham)"
+        },
+        {
+          "category": "routine",
+          "title": "Copy What Worked at Apple",
+          "what": "Studied how Steve Jobs ran Apple and explicitly modelled Airbnb's operating cadence on it, down to the structure of the executive team meetings.",
+          "why": "Don't reinvent operating systems that have been validated at scale. Jobs's playbook for a design-led, functional company is one of the few clearly proven ones; copying it deliberately (rather than re-deriving) saves years.",
+          "source": "Chesky on Lenny Rachitsky podcast, 2023"
+        },
+        {
+          "category": "culture",
+          "title": "Design-Led at Every Layer",
+          "what": "Treats design as a company-wide capability, not a department. The CEO sets the bar; every team meets it.",
+          "why": "When design is a department, it competes with engineering and product for resources. When it's a value, it's the brief everyone is working to. Airbnb's product feel comes from this stance, not from designers.",
+          "source": "Chesky public talks"
+        }
+      ],
+      "sources": [
+        { "label": "Paul Graham, Founder Mode", "url": "https://paulgraham.com/foundermode.html" },
+        { "label": "Chesky on Lenny's Podcast", "url": "https://www.lennysnewsletter.com/p/brian-chesky-after-the-honeymoon-airbnb" }
+      ]
+    },
+    {
+      "id": "thiel",
+      "name": "Peter Thiel",
+      "role": "Co-founder",
+      "company": "PayPal, Founders Fund, Palantir",
+      "era": "1998–present",
+      "origin": "USA / Germany",
+      "archetype": "The Contrarian Strategist",
+      "tagline": "Find the truth no one else believes, and build the monopoly that proves it.",
+      "bio": "Co-founded PayPal and Palantir, made the first outside investment in Facebook, and runs Founders Fund. Author of Zero to One. Built his career around the discipline of asking what is true but unpopular, and then betting capital on it.",
+      "avatar": { "monogram": "PT", "color": "#444444" },
+      "tags": ["contrarian", "monopoly", "secrets", "definite-optimism"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "The Contrarian Question",
+          "what": "Uses one interview / thinking question above all others: 'What important truth do very few people agree with you on?'",
+          "why": "Most people can list opinions; few can hold a defensible, non-consensus belief. The question filters for original thinking, conviction, and a willingness to be temporarily wrong in public. The answers are also the basis of every startup worth building.",
+          "source": "Thiel, Zero to One (2014)",
+          "sourceUrl": "https://www.zerotoonebook.com/"
+        },
+        {
+          "category": "mind",
+          "title": "Definite Optimism",
+          "what": "Distinguishes definite (plan-driven) from indefinite (option-driven) attitudes, and argues that definite optimism — believing the future will be better and having a plan — is the only attitude that builds anything large.",
+          "why": "Indefinite optimism (the future is good but I'm not sure how) leads to portfolios, options, finance. Definite optimism leads to companies, missions, and bets. The civilisations and people who built the world held the latter; the modern West has drifted into the former.",
+          "source": "Zero to One (2014)"
+        },
+        {
+          "category": "vision",
+          "title": "Monopoly Thinking",
+          "what": "Looks for businesses that can capture a monopoly position in a small market and expand. Treats competition as a sign you are doing something undifferentiated.",
+          "why": "Competition is what destroys profit margins. Monopolies — earned through proprietary tech, network effects, or scale — are the only businesses that generate the durable surplus you need to fund the next bet. The goal isn't to fight in a red ocean; it's to invent a new ocean.",
+          "source": "Zero to One (2014)"
+        },
+        {
+          "category": "vision",
+          "title": "Last-Mover Advantage",
+          "what": "Aims to be the last entrant in a category — the one whose position can't be displaced — rather than the first.",
+          "why": "First-mover romance is overrated; first movers are usually displaced. The durable position is being the last mover who can't be unseated, because they own the standard, the brand, or the network. Plan for the endgame, not the launch.",
+          "source": "Zero to One (2014)"
+        },
+        {
+          "category": "culture",
+          "title": "Bet on Secrets",
+          "what": "Looks for 'secrets' — truths that are important, hard to see, but knowable — and structures investments and companies around them.",
+          "why": "Conventional opportunities have conventional returns. The world rewards people who see things others can't — Facebook before social was obvious, SpaceX before private rockets were credible. A secret is the seed of a monopoly, because by definition the competition hasn't seen it yet.",
+          "source": "Zero to One (2014)"
+        }
+      ],
+      "sources": [
+        { "label": "Zero to One (Thiel & Masters)", "url": "https://www.zerotoonebook.com/" }
+      ]
+    },
+    {
+      "id": "hoffman",
+      "name": "Reid Hoffman",
+      "role": "Co-founder; Partner",
+      "company": "LinkedIn, Greylock",
+      "era": "1997–present",
+      "origin": "USA",
+      "archetype": "The Network Catalyst",
+      "tagline": "Build the network before you need it; ship before you're ready.",
+      "bio": "Co-founded LinkedIn in 2003, sold it to Microsoft in 2016, has been a partner at Greylock since. Theorist of blitzscaling and the gig-economy era of company-building, and a serial early investor across the social and AI generations.",
+      "avatar": { "monogram": "RH", "color": "#0a66c2" },
+      "tags": ["network", "blitzscaling", "permanent-beta", "speed"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Permanent Beta",
+          "what": "Treats himself, his career, and his companies as permanently in beta — always shipping, always learning, never declaring 'done'.",
+          "why": "Industries change faster than careers used to. Permanent beta is the posture that makes you legible to that change rather than a victim of it. You're never finished, but you're always in motion.",
+          "source": "Hoffman, The Start-up of You (2012)",
+          "sourceUrl": "https://www.thestartupofyou.com/"
+        },
+        {
+          "category": "mind",
+          "title": "Launch Embarrassed",
+          "what": "Hoffman's maxim: 'If you're not embarrassed by the first version of your product, you launched too late.'",
+          "why": "Perfection delays the only thing that teaches you anything: customer reaction. The cost of embarrassment is small; the cost of a year of unvalidated building is huge. Ship the worst version that still tests the hypothesis.",
+          "source": "Hoffman quote, widely cited"
+        },
+        {
+          "category": "vision",
+          "title": "Blitzscaling",
+          "what": "When you're in a winner-take-all market, prioritise speed over efficiency — even when it looks reckless from outside.",
+          "why": "Markets with strong network effects have a single winner. Being second in such a market means being nothing. Blitzscaling accepts a high burn and operational chaos as the price of getting to first scale before anyone else can.",
+          "source": "Hoffman & Yeh, Blitzscaling (2018)",
+          "sourceUrl": "https://www.blitzscaling.com/"
+        },
+        {
+          "category": "team",
+          "title": "Tour-of-Duty Alliance",
+          "what": "Frames employment as a series of 2–4 year 'tours of duty' — each with a clear mission, mutual investment, and an honest acknowledgement that the relationship may not be permanent.",
+          "why": "The lifelong-loyalty contract died decades ago, but most companies still pretend otherwise. Naming the alliance honestly produces a better deal on both sides: the company gets focused commitment; the employee gets explicit development.",
+          "source": "Hoffman, The Alliance (2014)",
+          "sourceUrl": "https://www.theallianceframework.com/"
+        },
+        {
+          "category": "communication",
+          "title": "Network Before You Need It",
+          "what": "Invests heavily in relationships when there's nothing transactional at stake — long before the moment he needs the introduction, deal, or favour.",
+          "why": "Networks that exist only when you need something feel transactional and don't work. Real networks are built in slack time, on small gifts of attention and connection. By the time you 'need' your network, it's too late to build it.",
+          "source": "The Start-up of You (2012)"
+        }
+      ],
+      "sources": [
+        { "label": "Blitzscaling", "url": "https://www.blitzscaling.com/" },
+        { "label": "The Start-up of You", "url": "https://www.thestartupofyou.com/" },
+        { "label": "The Alliance", "url": "https://www.theallianceframework.com/" }
+      ]
+    },
+    {
+      "id": "huang",
+      "name": "Jensen Huang",
+      "role": "Co-founder & CEO",
+      "company": "Nvidia",
+      "era": "1993–present",
+      "origin": "USA / Taiwan",
+      "archetype": "The Flat Operator",
+      "tagline": "Information should be symmetric. Standards should be punishing. The org chart should be flat enough that you can hear the work breathing.",
+      "bio": "Co-founded Nvidia in 1993 in a Denny's booth and has run it ever since. Built it from a graphics chip company into the foundational compute provider of the AI era, with one of the most unconventional operating systems in big tech.",
+      "avatar": { "monogram": "JH", "color": "#76b900" },
+      "tags": ["flat-org", "no-1on1s", "weak-signals", "high-standards", "transparency"],
+      "practices": [
+        {
+          "category": "team",
+          "title": "60 Direct Reports, Three Layers",
+          "what": "Has roughly 60 people reporting directly to him. Nvidia has only three management layers between Huang and an individual contributor.",
+          "why": "Layers are where context dies. With a flat org, the CEO sees the actual texture of the work and decisions don't have to climb. The cost is intense — Huang's calendar is brutal — but he treats that cost as cheaper than the cost of distortion.",
+          "source": "Fortune, 'Jensen Huang's unconventional leadership' (2024)",
+          "sourceUrl": "https://fortune.com/2024/11/12/jensen-huang-nvidia-ceo-leadership-mpp/"
+        },
+        {
+          "category": "team",
+          "title": "No 1:1s",
+          "what": "Does not hold one-on-one meetings with his direct reports. Almost everything he says, he says in front of the group.",
+          "why": "1:1s create asymmetric information and back-channel power. By speaking to the room, Huang ensures the whole leadership team learns from any feedback he gives anyone — and that no one has 'privileged access' to him.",
+          "source": "Entrepreneur, on Huang's leadership"
+        },
+        {
+          "category": "communication",
+          "title": "Top 5 Emails",
+          "what": "Every employee sends Huang their five most important things on a regular cadence. He samples roughly 100 of these daily, scanning for signals at every level of the company.",
+          "why": "Conventional reporting hierarchies filter information before it reaches the CEO; by the time something gets to the top, it's been smoothed into a status update. Reading raw Top 5s lets him detect weak signals — a customer problem, a competitor move, an internal tension — before they become big.",
+          "source": "Inc, 'Huang's Top 5 emails'",
+          "sourceUrl": "https://www.inc.com/jessica-stillman/want-to-be-a-better-leader-next-year-steal-jensen-huangs-top-5-emails-system/91066948"
+        },
+        {
+          "category": "mind",
+          "title": "Pain & Suffering Builds Character",
+          "what": "Publicly hopes for 'pain and suffering' on people he believes in — meaning hard, character-building work, not cruelty.",
+          "why": "Greatness, in his view, is forged not in success but in the struggle to overcome difficulty. He treats high standards as a gift to the people he respects most; lowering the bar would be a way of saying he didn't believe they could meet it.",
+          "source": "Huang Stanford GSB talk, 2024"
+        },
+        {
+          "category": "culture",
+          "title": "Mission, Not Company",
+          "what": "Frames Nvidia as a multi-decade mission to invent accelerated computing, not a quarterly business. Insists employees treat the work as the calling, not the paycheck.",
+          "why": "A company is a vehicle; missions outlast vehicles. Tying everyone to the mission rather than to Nvidia-as-employer means people make decisions for the long-term curve, not their next promotion cycle.",
+          "source": "Huang public talks"
+        }
+      ],
+      "sources": [
+        { "label": "Fortune: Huang's leadership", "url": "https://fortune.com/2024/11/12/jensen-huang-nvidia-ceo-leadership-mpp/" },
+        { "label": "Inc: Top 5 emails", "url": "https://www.inc.com/jessica-stillman/want-to-be-a-better-leader-next-year-steal-jensen-huangs-top-5-emails-system/91066948" }
+      ]
+    },
+    {
+      "id": "cannon-brookes",
+      "name": "Mike Cannon-Brookes",
+      "role": "Co-founder & Co-CEO",
+      "company": "Atlassian",
+      "era": "2002–present",
+      "origin": "Australia",
+      "archetype": "The Open Activist",
+      "tagline": "Build a transparent company that swears at the things it disagrees with.",
+      "bio": "Co-founded Atlassian in 2002 in Sydney; took it public on NASDAQ in 2015. Has become Australia's most vocal climate activist-shareholder, including a hostile bid for AGL (the country's largest emitter) to force decarbonisation. Operates Atlassian as a deliberately distributed, transparent, opinionated company.",
+      "avatar": { "monogram": "MCB", "color": "#0052cc" },
+      "tags": ["transparency", "values-led", "climate", "distributed-first", "opinionated"],
+      "practices": [
+        {
+          "category": "culture",
+          "title": "Open Company, No Bullshit",
+          "what": "One of Atlassian's five stated company values: be radically transparent internally, and don't sugar-coat externally.",
+          "why": "Bullshit is the entropy that corrodes companies as they scale: polite memos, sanitised metrics, vague stand-ups. Making 'no bullshit' an explicit value gives employees permission — and obligation — to call it out. The value only works because it's been said out loud.",
+          "source": "Atlassian values",
+          "sourceUrl": "https://www.atlassian.com/company/values"
+        },
+        {
+          "category": "vision",
+          "title": "1% Pledge from Day One",
+          "what": "From founding, committed 1% of Atlassian's equity, profit, time, and product to charitable causes via the Atlassian Foundation.",
+          "why": "Most companies promise philanthropy 'when we're profitable'. Building it into the constitution forces the company to fund it through every stage, and signals to employees that mission is structural, not aspirational.",
+          "source": "Atlassian Foundation",
+          "sourceUrl": "https://www.atlassianfoundation.org/about"
+        },
+        {
+          "category": "vision",
+          "title": "Climate as Core Mandate",
+          "what": "Authored 'Don't F@#$ the Planet', an open sustainability playbook for other corporate leaders, and committed $1.5 billion to climate projects by 2030. Acquired the largest stake in AGL to force the country's biggest emitter to decarbonise faster.",
+          "why": "He believes business leaders have more leverage on climate than governments, and that staying quiet is itself a choice. The activism is not a side project — it's how he uses the platform Atlassian gave him.",
+          "source": "Atlassian sustainability"
+        },
+        {
+          "category": "team",
+          "title": "TEAM Anywhere",
+          "what": "Atlassian was distributed-first from day one of COVID and made it permanent: employees can work from any country Atlassian operates in.",
+          "why": "Distributed-first wasn't a pandemic concession but a hiring strategy: it expands the talent pool, eliminates the head-office-vs-rest-of-company tax, and forces the company to operate in writing — which is healthier than relying on hallway osmosis.",
+          "source": "Atlassian TEAM Anywhere"
+        },
+        {
+          "category": "communication",
+          "title": "Combative Public Stances",
+          "what": "Takes loud, often unpopular public positions — on climate, fossil fuel companies, public policy — using personal social media and shareholder activism.",
+          "why": "He treats his platform as an asset that depreciates if unused. Picking visible fights costs him short-term political capital but builds long-term trust with the constituency that already shares his values — and accelerates change he wouldn't get through quiet lobbying.",
+          "source": "Public record"
+        }
+      ],
+      "sources": [
+        { "label": "Atlassian values", "url": "https://www.atlassian.com/company/values" },
+        { "label": "Atlassian Foundation", "url": "https://www.atlassianfoundation.org/about" }
+      ]
+    },
+    {
+      "id": "cook",
+      "name": "Tim Cook",
+      "role": "CEO",
+      "company": "Apple",
+      "era": "2011–present",
+      "origin": "USA",
+      "archetype": "The Calm Operator",
+      "tagline": "Wake before the world. Read everything. Decide slowly, execute fast.",
+      "bio": "Joined Apple in 1998 as head of operations, became CEO in 2011 after Steve Jobs. Has more than tripled Apple's revenue while operating with an almost meditative public calm. Known for a punishing morning routine and an inbox that he treats as the seam between the company and its customers.",
+      "avatar": { "monogram": "TC", "color": "#0071e3" },
+      "tags": ["routine", "operations", "calm", "supply-chain", "privacy"],
+      "practices": [
+        {
+          "category": "routine",
+          "title": "4am Start",
+          "what": "Wakes at 4am every day. Spends the first hour reading customer emails and overnight sales data. In bed by around 9pm.",
+          "why": "The first hour belongs to him alone, before the company's demands wake up. That's where the thinking happens, and the inbox triage that shapes the rest of the day. Sleep is non-negotiable on the other end — it's what makes the 4am hour usable.",
+          "source": "CNBC: Tim Cook morning routine",
+          "sourceUrl": "https://www.cnbc.com/2018/11/27/tim-cook-reveals-the-morning-routine-that-sets-him-up-for-success.html"
+        },
+        {
+          "category": "routine",
+          "title": "Daily Gym Hour",
+          "what": "Goes to the gym every morning after his inbox, for strength training. Treats it as non-optional.",
+          "why": "Physical exertion is mental hygiene — it sheds the cortisol that builds up running a $3T company. Energy management, not time management, is the real currency at his level.",
+          "source": "Cook interviews, multiple"
+        },
+        {
+          "category": "communication",
+          "title": "Reads Customer Emails Personally",
+          "what": "Reads (and frequently replies to) emails sent to tcook@apple.com from customers, including bug reports and complaints.",
+          "why": "It's a check that the rest of Apple's filtering system isn't lying to him. If real customers say a thing is broken, he knows it before the next product review. It also signals to the company that customer ground truth matters, not just internal dashboards.",
+          "source": "Entrepreneur: Tim Cook routine",
+          "sourceUrl": "https://www.entrepreneur.com/business-news/apple-ceo-tim-cooks-routine-emails-meetings-energy-bars/463506"
+        },
+        {
+          "category": "team",
+          "title": "Supply Chain as a Craft",
+          "what": "Came up through operations and treats Apple's supply chain as a strategic moat — not a back-office function.",
+          "why": "Apple ships hundreds of millions of devices a quarter without inventory bloat or stockouts. That's only possible because operations is staffed with the same calibre of people as design and product, and treated with the same care.",
+          "source": "Industry analysis, multiple"
+        },
+        {
+          "category": "mind",
+          "title": "Slow to Decide, Fast to Execute",
+          "what": "Famous for asking 'why?' repeatedly in meetings, often delaying decisions until he's satisfied — and then executing relentlessly once the call is made.",
+          "why": "Reversing a decision after launch is expensive at Apple's scale. The slowness up front is paid back many times over in not having to backtrack. Calm isn't passivity — it's the discipline of not letting urgency hijack judgment.",
+          "source": "Profiles of Cook, multiple"
+        },
+        {
+          "category": "culture",
+          "title": "Privacy as a Human Right",
+          "what": "Publicly states privacy as a human right, and has made Apple's stance on it a product differentiator — including refusing FBI requests to unlock devices.",
+          "why": "Values held only privately don't shape product decisions. By taking the position publicly, he locked Apple into the stance and turned a moral claim into a competitive moat against advertising-driven rivals.",
+          "source": "Cook public statements, multiple"
+        }
+      ],
+      "sources": [
+        { "label": "CNBC: 4am routine", "url": "https://www.cnbc.com/2018/11/27/tim-cook-reveals-the-morning-routine-that-sets-him-up-for-success.html" },
+        { "label": "Entrepreneur: Cook routine", "url": "https://www.entrepreneur.com/business-news/apple-ceo-tim-cooks-routine-emails-meetings-energy-bars/463506" }
+      ]
+    },
+    {
+      "id": "nadella",
+      "name": "Satya Nadella",
+      "role": "Chairman & CEO",
+      "company": "Microsoft",
+      "era": "2014–present",
+      "origin": "USA / India",
+      "archetype": "The Empathetic Reformer",
+      "tagline": "Replace know-it-all with learn-it-all. Lead with empathy, and the market will follow.",
+      "bio": "Joined Microsoft in 1992, became CEO in 2014 after Steve Ballmer. Pivoted the company from Windows-centric to cloud-first, reset its culture from internal warring to a growth mindset, and grew its market cap roughly 10x in his first decade.",
+      "avatar": { "monogram": "SN", "color": "#5e5eff" },
+      "tags": ["growth-mindset", "empathy", "cloud", "cultural-reset", "humility"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Growth Mindset",
+          "what": "Adopted Carol Dweck's growth mindset as Microsoft's organising idea. Replace 'know-it-all' with 'learn-it-all' as the cultural posture.",
+          "why": "Microsoft's stalled decade was a know-it-all problem: smart people defending past correctness. Reframing intelligence as something you grow, not something you have, gave the company permission to be curious again — and to ship products that didn't fit the old worldview.",
+          "source": "Nadella, Hit Refresh (2017)",
+          "sourceUrl": "https://news.microsoft.com/hitrefresh/"
+        },
+        {
+          "category": "mind",
+          "title": "Empathy as Innovation",
+          "what": "Treats empathy not as a soft skill but as the engine of innovation — the ability to perceive unmet, unarticulated needs.",
+          "why": "Innovation requires perceiving what people need but cannot yet say. Without empathy you can only ship better versions of what already exists. Nadella's own son was born with cerebral palsy, which he credits with teaching him empathy as a leadership practice rather than a personality trait.",
+          "source": "Wharton: Nadella on empathy",
+          "sourceUrl": "https://knowledge.wharton.upenn.edu/article/microsofts-ceo-on-how-empathy-sparks-innovation/"
+        },
+        {
+          "category": "team",
+          "title": "One Microsoft",
+          "what": "Ended Microsoft's notorious internal warring (product groups undermining each other) by reframing every team as serving One Microsoft.",
+          "why": "Internal competition can produce excellence in a startup; at scale it produces hostile silos. By making cross-team collaboration a celebrated behaviour and politicking a punished one, he changed what got promoted — and therefore what got built.",
+          "source": "Hit Refresh (2017)"
+        },
+        {
+          "category": "communication",
+          "title": "Listening Tour as Day One",
+          "what": "Spent his first weeks as CEO listening — to customers, partners, employees — rather than announcing a new strategy.",
+          "why": "Most new CEOs feel obliged to put a stake in the ground immediately. Listening first earns trust to make the harder calls later, and reveals which of the company's stated truths are actually true. The information you gather in the first 90 days is the only time you'll be able to ask everything.",
+          "source": "Hit Refresh (2017)"
+        },
+        {
+          "category": "vision",
+          "title": "Cloud-First Re-Bet",
+          "what": "Bet the company on Azure and cloud services, including the unthinkable move of putting Office on iOS and supporting Linux on Azure.",
+          "why": "The old Microsoft saw Windows as the centre of gravity and partnerships with rivals as betrayal. Nadella's bet was that customer relevance comes from being where the customer already is — even if that's Apple's or Google's territory. The market rewarded the realignment.",
+          "source": "Microsoft strategic shift"
+        }
+      ],
+      "sources": [
+        { "label": "Hit Refresh (Nadella)", "url": "https://news.microsoft.com/hitrefresh/" },
+        { "label": "Wharton: Empathy & Innovation", "url": "https://knowledge.wharton.upenn.edu/article/microsofts-ceo-on-how-empathy-sparks-innovation/" }
+      ]
+    },
+    {
+      "id": "hastings",
+      "name": "Reed Hastings",
+      "role": "Co-founder & Executive Chairman",
+      "company": "Netflix",
+      "era": "1997–present",
+      "origin": "USA",
+      "archetype": "The Talent-Density Architect",
+      "tagline": "Pay top of market. Fire generously. Trust completely. Write everything down.",
+      "bio": "Co-founded Netflix as a DVD-by-mail company in 1997, transitioned it to streaming, then to original content, and now runs it as one of the most distinctive corporate cultures in the world. Co-author of 'No Rules Rules' with INSEAD's Erin Meyer.",
+      "avatar": { "monogram": "RH2", "color": "#e50914" },
+      "tags": ["talent-density", "candor", "no-rules", "freedom-responsibility"],
+      "practices": [
+        {
+          "category": "culture",
+          "title": "No Rules Rules",
+          "what": "Built Netflix's culture around 'freedom and responsibility' — removing as many policies, approvals, and rules as possible (no vacation policy, no expense policy beyond 'act in Netflix's best interests').",
+          "why": "Rules are written for the lowest-trust 5% and tax the other 95%. Removing them only works if you've built sufficient talent density that you can trust people's judgment by default. The policy is the people.",
+          "source": "Hastings & Meyer, No Rules Rules (2020)",
+          "sourceUrl": "https://www.norulesrules.com/"
+        },
+        {
+          "category": "culture",
+          "title": "Keeper Test",
+          "what": "Every manager regularly asks themselves: 'Which of my people, if they told me they were leaving, would I fight hard to keep?' If you wouldn't fight to keep someone, you owe them a generous severance and the chance to find a place where they're loved.",
+          "why": "Performance management as ongoing decency, not a yearly ritual. Tolerating mediocrity is unkind both to the high performers (who carry the load) and the underperformer (who is stuck in the wrong seat). The Keeper Test makes the question explicit, every quarter.",
+          "source": "No Rules Rules (2020)"
+        },
+        {
+          "category": "team",
+          "title": "Talent Density",
+          "what": "Pays at the top of the market and is willing to replace good employees with great ones. Believes high density of A-players is the precondition for everything else.",
+          "why": "Once you have an unusually dense team, you can take away the rules, the layers, the approvals — because everyone can be trusted. Density is not a cost-saving lever; it's an enabling one. You're paying for the freedom you get on the other side.",
+          "source": "No Rules Rules (2020)"
+        },
+        {
+          "category": "communication",
+          "title": "4A Feedback",
+          "what": "Codified candor with a framework: feedback should Aim to assist, be Actionable, be received with Appreciation, and the recipient is free to Accept or discard.",
+          "why": "'Be radically candid' sounds good but breaks down in practice without a structure. The 4A frame makes both sides clear about the contract: feedback is a gift, but not a command. It separates 'I'm telling you this honestly' from 'and you must obey'.",
+          "source": "No Rules Rules (2020)"
+        },
+        {
+          "category": "vision",
+          "title": "Informed Captains",
+          "what": "Pushes major decisions down to the 'informed captain' — the person closest to the decision, with the most context — rather than escalating them upward for approval.",
+          "why": "Decisions made by the people doing the work are faster and usually better. Escalation feels safer but produces worse calls because the people in the room have less context than the captain. Trust costs nerve up front and pays in speed and quality forever after.",
+          "source": "No Rules Rules (2020)"
+        }
+      ],
+      "sources": [
+        { "label": "No Rules Rules", "url": "https://www.norulesrules.com/" }
+      ]
+    },
+    {
+      "id": "buffett",
+      "name": "Warren Buffett",
+      "role": "Chairman & CEO",
+      "company": "Berkshire Hathaway",
+      "era": "1965–present",
+      "origin": "USA",
+      "archetype": "The Patient Compounder",
+      "tagline": "Read for five hours. Hold for decades. Stay inside your circle.",
+      "bio": "Took control of Berkshire Hathaway in 1965 and turned it from a struggling textile mill into one of history's largest holding companies. Built a track record by treating investing as an exercise in patience, reading, and abstinence from the things he doesn't understand.",
+      "avatar": { "monogram": "WB", "color": "#003366" },
+      "tags": ["patience", "long-term", "reading", "reputation", "delegation"],
+      "practices": [
+        {
+          "category": "routine",
+          "title": "Five-Hour Reading Day",
+          "what": "Reads roughly 500 pages a day — annual reports, newspapers, biographies. Treats reading as the primary work, not the preparation for it.",
+          "why": "Investment quality is downstream of knowledge breadth. Compounding works on information the same way it works on capital: reading accumulates at interest. Most executives skim; he reads.",
+          "source": "Buffett at Columbia Business School"
+        },
+        {
+          "category": "mind",
+          "title": "Circle of Competence",
+          "what": "Refuses to invest in businesses he doesn't understand. The circle's size matters less than knowing exactly where its edge is.",
+          "why": "The dangerous position isn't being ignorant; it's being ignorant and not knowing it. By drawing the edge of his competence honestly, he avoids the trades that ruin most investors — the ones outside their lane that they thought were inside.",
+          "source": "Berkshire shareholder letters"
+        },
+        {
+          "category": "mind",
+          "title": "Invert, Always Invert",
+          "what": "Borrowed from his partner Charlie Munger: ask 'how could this fail?' before asking 'how could this succeed?'",
+          "why": "Failure modes are more knowable than success modes. By asking what would have to go wrong, he eliminates the bets where the downside is fatal — leaving only ones where the worst outcome is tolerable. This is asymmetric risk thinking made operational.",
+          "source": "Munger via Buffett, multiple"
+        },
+        {
+          "category": "vision",
+          "title": "Forever Holds",
+          "what": "His favourite holding period is 'forever'. Treats the buy decision as the moment of work; everything after is patience.",
+          "why": "Activity is the enemy of returns: every transaction creates tax, friction, and an opportunity for human error. A long hold compounds tax-deferred and lets the business do the work. Most investors trade themselves into mediocrity.",
+          "source": "1988 Berkshire shareholder letter"
+        },
+        {
+          "category": "team",
+          "title": "Hire & Let Alone",
+          "what": "Berkshire owns dozens of operating companies but maintains a head office of only ~30 people. Operating CEOs are left almost entirely alone.",
+          "why": "If you've hired the right people, oversight is the value-destroying tax of an insecure HQ. Letting talented operators run their businesses without interference is both more efficient and a better attractor for the kind of people you want.",
+          "source": "Berkshire annual reports"
+        },
+        {
+          "category": "culture",
+          "title": "Reputation: Brick by Brick",
+          "what": "Public maxim: 'It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.'",
+          "why": "Reputation is the only asset that compounds across every deal. By holding himself to a standard well above what's legally required, he gains an option pool of partners who want to do business with him — partners who couldn't be reached by money alone.",
+          "source": "Buffett, widely quoted"
+        }
+      ],
+      "sources": [
+        { "label": "Berkshire shareholder letters", "url": "https://www.berkshirehathaway.com/letters/letters.html" }
+      ]
+    },
+    {
+      "id": "collison",
+      "name": "Patrick Collison",
+      "role": "Co-founder & CEO",
+      "company": "Stripe",
+      "era": "2010–present",
+      "origin": "Ireland / USA",
+      "archetype": "The Writing-Culture Builder",
+      "tagline": "Write to think. Read to compound. Treat progress itself as a field of study.",
+      "bio": "Co-founded Stripe with his brother John in 2010, building it into the default payments infrastructure for the internet. Has paired the company's growth with a public intellectual project — Progress Studies, Stripe Press, and a personal reading list that has shaped how a generation of founders think.",
+      "avatar": { "monogram": "PC", "color": "#635bff" },
+      "tags": ["writing-culture", "progress", "reading", "long-term", "taste"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Progress Studies",
+          "what": "Co-authored an essay in The Atlantic arguing for 'Progress Studies' as a field — the systematic study of why human progress happens (or stalls) when and where it does.",
+          "why": "If you want more of something, study what produced it. Progress is treated as inevitable or accidental in most discourse; treating it as a phenomenon with causes makes it possible to deliberately enable more of it. The framing has spread across both founders and policymakers.",
+          "source": "Atlantic, 'We need a new science of progress', 2019",
+          "sourceUrl": "https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/"
+        },
+        {
+          "category": "routine",
+          "title": "Public Reading List",
+          "what": "Maintains a public list of books he has read — hundreds of titles across history, economics, biography, fiction, science.",
+          "why": "Public lists create accountability and curate his own attention. They also serve as compounded gift to founders and intellectuals reading the same books, creating a shared intellectual substrate for conversations he wants to have.",
+          "source": "patrickcollison.com/bookshelf",
+          "sourceUrl": "https://patrickcollison.com/bookshelf"
+        },
+        {
+          "category": "communication",
+          "title": "Stripe Press",
+          "what": "Operates Stripe Press as a real publishing imprint, putting out long-form books on ideas worth spreading (The Dream Machine, Working in Public, Stubborn Attachments).",
+          "why": "Stripe could have spent the same money on conventional brand marketing. Instead, Press funds books that shape how a generation of builders think — and signals what kind of company Stripe wants to be. Long-form writing scales attention better than ads.",
+          "source": "press.stripe.com",
+          "sourceUrl": "https://press.stripe.com/"
+        },
+        {
+          "category": "team",
+          "title": "Hire for Taste",
+          "what": "Optimises hiring not just for skill but for taste — the ability to recognise quality and care about getting it right.",
+          "why": "Skill alone produces competent output; taste produces output worth talking about. Taste is also harder to teach than skill, so it's the input you have to hire for, not develop. Stripe's API design and brand are downstream of this hiring stance.",
+          "source": "Collison interviews"
+        },
+        {
+          "category": "culture",
+          "title": "Writing Culture",
+          "what": "Stripe runs internally on written documents — 'go documents' — that pre-circulate before meetings, capture decisions, and persist as institutional memory.",
+          "why": "Spoken meetings produce decisions that no one can find six months later. Writing forces precision and creates a searchable substrate for future teammates. It's slower in the moment and dramatically faster across years.",
+          "source": "Stripe internal practice, widely reported"
+        },
+        {
+          "category": "vision",
+          "title": "Increase the GDP of the Internet",
+          "what": "Stripe's stated mission. Not 'grow payments' — 'grow the size of the underlying market'.",
+          "why": "Most companies frame missions around their own product. Stripe's mission ties its success to the success of every business that uses it. That alignment changes what gets prioritised: anything that makes online commerce easier, even outside Stripe's core, is on-mission.",
+          "source": "Stripe mission"
+        }
+      ],
+      "sources": [
+        { "label": "Patrick Collison's bookshelf", "url": "https://patrickcollison.com/bookshelf" },
+        { "label": "Stripe Press", "url": "https://press.stripe.com/" },
+        { "label": "Progress Studies essay", "url": "https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" }
+      ]
+    },
+    {
+      "id": "perkins",
+      "name": "Melanie Perkins",
+      "role": "Co-founder & CEO",
+      "company": "Canva",
+      "era": "2013–present",
+      "origin": "Australia",
+      "archetype": "The Patient Visionary",
+      "tagline": "Close the laptop. Eat lunch together. Plan for a hundred years.",
+      "bio": "Co-founded Canva in Perth in 2013 after years of being told no by investors. Built it into one of the world's most-used software products. Operates with an introvert's discipline — no Slack on her phone, daily journaling, paced capital — and an extrovert's ambition: she's said her plan is to outlast her own lifetime.",
+      "avatar": { "monogram": "MP", "color": "#00c4cc" },
+      "tags": ["patience", "introvert-discipline", "design-led", "long-term", "australian"],
+      "practices": [
+        {
+          "category": "routine",
+          "title": "No Slack or Email on Her Phone",
+          "what": "Doesn't keep work apps on her phone. When her laptop closes, the workday ends.",
+          "why": "Founders often optimise for being always-on. Perkins optimises for the opposite — protecting the conditions under which she can think long-term. The phone-free phone is a fence around the parts of her mind a startup will otherwise eat.",
+          "source": "Digital Information World: Perkins habits",
+          "sourceUrl": "https://www.digitalinformationworld.com/2025/11/healthy-habits-of-billion-dollar.html"
+        },
+        {
+          "category": "body",
+          "title": "Daily Meditation & Journaling",
+          "what": "Practices meditation, daily journaling, and deliberate quiet time. Identifies as an introvert and structures her days to recharge.",
+          "why": "Building a global company involves enormous social load — especially for an introvert. The morning rituals are not luxuries; they're the operational requirement that lets the next ten hours of intense people-work happen without breaking her.",
+          "source": "Perkins interviews"
+        },
+        {
+          "category": "team",
+          "title": "Personally Onboards Every New Hire",
+          "what": "Hosts the welcome session for new employees herself, telling Canva's origin story and the company's vision.",
+          "why": "Culture is set by what the founder repeats. Outsourcing onboarding outsources the founding story — and within a few years no one in the company has heard it from the source. Doing it herself is how she keeps the story canonical.",
+          "source": "Canva culture, multiple sources"
+        },
+        {
+          "category": "culture",
+          "title": "Lunch Together, Every Day",
+          "what": "Canva offices serve lunch and the expectation is that everyone eats together. Perkins calls it 'one of the strongest things you can do for culture'.",
+          "why": "Most culture happens in informal seams between formal work. Shared meals create those seams reliably; without them, culture forms in cliques. The cafeteria is cheaper than a culture consultant and works better.",
+          "source": "Perkins interviews"
+        },
+        {
+          "category": "culture",
+          "title": "Expand the Pie",
+          "what": "Actively discourages internal politics. The company mantra is to 'expand the pie' so that everyone benefits as Canva grows, rather than competing for slices.",
+          "why": "Internal competition is what burns down great teams. By naming it as the enemy and 'expanding the pie' as the alternative, Perkins gives people an explicit frame for choosing collaboration when the default would be self-interest.",
+          "source": "Canva internal culture"
+        },
+        {
+          "category": "vision",
+          "title": "Crazy Big Goals, Paced Capital",
+          "what": "Sets audacious targets internally (the 'crazy big goal' for each team), but deliberately paces external capital intake to keep the company close to its users and not over-extended.",
+          "why": "Most startups solve ambition with capital. Perkins decouples them: ambition stays high, capital stays measured. The pacing protects iteration cycles and customer empathy — and avoids the well-funded but bloated middle phase that kills many otherwise-good companies.",
+          "source": "Canva story"
+        },
+        {
+          "category": "mind",
+          "title": "Time in Customer Support",
+          "what": "Spends time on the customer support queue even as CEO, reading and replying to user messages directly.",
+          "why": "Customer support is the highest-resolution surface of how the product is actually used and where it fails. By keeping her own hand in it, she stays calibrated to the actual user — not the user her PMs describe to her.",
+          "source": "Perkins interviews"
+        }
+      ],
+      "sources": [
+        { "label": "DIW: Healthy habits", "url": "https://www.digitalinformationworld.com/2025/11/healthy-habits-of-billion-dollar.html" },
+        { "label": "Canva culture profile", "url": "https://anz.peoplemattersglobal.com/article/leadership/visionary-leadership-in-action-canva-cofounder-melanie-perkins-46310" }
+      ]
+    },
+    {
+      "id": "nooyi",
+      "name": "Indra Nooyi",
+      "role": "Former Chairman & CEO",
+      "company": "PepsiCo",
+      "era": "2006–2018 (CEO)",
+      "origin": "USA / India",
+      "archetype": "The Whole-Person Steward",
+      "tagline": "Performance with purpose. Profit with a parent's pride.",
+      "bio": "Born and educated in India, joined PepsiCo in 1994 and became CEO in 2006 — one of the first women of colour to run a Fortune 50 company. More than doubled PepsiCo's profits over 12 years while pivoting the portfolio toward healthier products under her 'Performance with Purpose' banner.",
+      "avatar": { "monogram": "IN", "color": "#0048a3" },
+      "tags": ["whole-person", "purpose", "stewardship", "5-cs", "family"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "The 5 Cs of Leadership",
+          "what": "Codified her leadership philosophy as five Cs: Competence, Courage & Confidence, Communication, Curiosity, and Compass (an inner moral north).",
+          "why": "Leadership is too often described as personality. The 5 Cs are five learnable, testable capabilities — and they're balanced: courage without compass is recklessness, competence without curiosity is obsolescence. The framework gives developing leaders a list to actually work on.",
+          "source": "Indra Nooyi, multiple talks",
+          "sourceUrl": "https://www.strategypunk.com/5-cs-of-leadership-by-indra-nooyi/"
+        },
+        {
+          "category": "vision",
+          "title": "Performance with Purpose",
+          "what": "Launched 'Performance with Purpose' in 2006: deliver financial performance while improving product healthiness, reducing environmental impact, and supporting employees.",
+          "why": "She rejected the framing that profit and purpose are in tension. Treated them as a single equation: long-term shareholder value requires healthier products, sustainable supply chains, and a workforce that wants to be there. The strategy preceded the ESG era by a decade.",
+          "source": "BCG: Performance with Purpose",
+          "sourceUrl": "https://www.bcg.com/publications/2010/indra-nooyi-performance-purpose"
+        },
+        {
+          "category": "communication",
+          "title": "Letters to Parents",
+          "what": "Wrote personal letters to the parents of her 29 most senior executives, thanking them for raising their child so well.",
+          "why": "She'd noticed on a trip home that her own mother was praised for raising her — not the other way around. She generalised the insight: the parents of her senior team had also done something extraordinary, and almost no one had ever told them. The letters built deeper loyalty than any equity grant.",
+          "source": "Nooyi interviews"
+        },
+        {
+          "category": "body",
+          "title": "Whole-Person Identity",
+          "what": "Spoke openly about being CEO + mom + wife + daughter + daughter-in-law simultaneously, including admitting she had not 'figured it out'.",
+          "why": "Most senior executives present an impossible composite of always-on professionalism. By naming the whole picture honestly, Nooyi gave permission for everyone below her — especially women — to bring their whole lives into the room. The honesty paid in retention.",
+          "source": "Nooyi, My Life in Full (2021)"
+        },
+        {
+          "category": "culture",
+          "title": "Whole-Person Leadership",
+          "what": "Treated employees' home lives as part of their performance equation: argued for parental leave, childcare, and elder-care support as business decisions, not benefits.",
+          "why": "If half your senior team is wrestling with a sick parent or a daycare gap, they aren't bringing their best. Whole-person policies are not generosity; they're operational. Companies that pretend home life doesn't matter pay for it in the absence of the people they most needed.",
+          "source": "My Life in Full (2021)"
+        }
+      ],
+      "sources": [
+        { "label": "5 Cs of Leadership", "url": "https://www.strategypunk.com/5-cs-of-leadership-by-indra-nooyi/" },
+        { "label": "BCG: Performance with Purpose", "url": "https://www.bcg.com/publications/2010/indra-nooyi-performance-purpose" }
+      ]
+    },
+    {
+      "id": "blakely",
+      "name": "Sara Blakely",
+      "role": "Founder",
+      "company": "Spanx",
+      "era": "2000–present",
+      "origin": "USA",
+      "archetype": "The Failure-First Builder",
+      "tagline": "Celebrate the misses out loud. The wins will follow.",
+      "bio": "Founded Spanx in 2000 with $5,000 in savings, became the youngest self-made female billionaire on Forbes' list. Built a company around an inverted relationship with failure — celebrating it, modelling it, and asking weekly about it.",
+      "avatar": { "monogram": "SB", "color": "#d61f6c" },
+      "tags": ["failure-first", "vulnerability", "creativity", "morning-routine", "female-founder"],
+      "practices": [
+        {
+          "category": "culture",
+          "title": "What Did You Fail at This Week?",
+          "what": "Her father asked this question at the dinner table every week of her childhood. She brought the question into Spanx as 'Oops Meetings', kicked off by Blakely sharing her own failure of the week first.",
+          "why": "Most cultures punish failure, which produces a culture of safe mediocrity. Asking the question publicly inverts the signal: if you have nothing to share, you weren't trying hard enough. Modelling it from the top makes it safe.",
+          "source": "Sara Blakely, Stanford GSB talk",
+          "sourceUrl": "https://www.gsb.stanford.edu/insights/sara-blakely-start-small-think-big-scale-fast"
+        },
+        {
+          "category": "mind",
+          "title": "Admits Her Mistakes First",
+          "what": "In Oops Meetings and elsewhere, she always shares her own miss before asking anyone else.",
+          "why": "Vulnerability is contagious — but only when it flows downhill from the leader. If you wait for employees to be vulnerable first, you'll wait forever. Going first transfers the social cost from them to you, which is what the leader is for.",
+          "source": "Blakely interviews"
+        },
+        {
+          "category": "body",
+          "title": "No Coffee, Big Smoothie",
+          "what": "Has never had a cup of coffee. Drinks a 12-ingredient morning smoothie — frozen blueberries, dark cherries, kale, dates, cinnamon, spinach, cilantro, mint, lemon, chia, walnuts, water.",
+          "why": "Caffeine produces borrowed energy with a tax later in the day. She found her morning clarity better without it; the smoothie is the dense input that replaces it. Not prescriptive — but a reminder that the default isn't necessarily the optimum.",
+          "source": "CNBC: Blakely morning routine",
+          "sourceUrl": "https://www.cnbc.com/2018/06/29/spanx-founder-sara-blakelys-morning-routine-does-not-include-coffee.html"
+        },
+        {
+          "category": "routine",
+          "title": "The Fake Commute",
+          "what": "Lives close to Spanx HQ but drives around aimlessly each morning so she has thinking time before work. Friends call it her 'fake commute'.",
+          "why": "Her best ideas come in the car. She noticed eliminating the commute had eliminated the thinking — so she reinstated it deliberately. Many short commutes are extracted thinking time; she reintroduced hers as a feature.",
+          "source": "CNBC: Blakely habits",
+          "sourceUrl": "https://www.cnbc.com/2018/05/17/sara-blakely-says-this-daily-morning-habit-sets-her-up-for-success.html"
+        },
+        {
+          "category": "vision",
+          "title": "Solve Problems You've Experienced",
+          "what": "Spanx came from her own frustration with how women's underwear ruined the line of white pants. She built a company on a problem she lived.",
+          "why": "First-hand experience of a problem is the most reliable founding insight. You can market-research your way into product ideas, but lived frustration is what produces a clear product and the stubbornness to push through when it doesn't work the first 47 times.",
+          "source": "Blakely founding story"
+        }
+      ],
+      "sources": [
+        { "label": "Stanford GSB: Start Small, Think Big", "url": "https://www.gsb.stanford.edu/insights/sara-blakely-start-small-think-big-scale-fast" },
+        { "label": "CNBC: Morning habit", "url": "https://www.cnbc.com/2018/05/17/sara-blakely-says-this-daily-morning-habit-sets-her-up-for-success.html" }
+      ]
+    },
+    {
+      "id": "barra",
+      "name": "Mary Barra",
+      "role": "Chair & CEO",
+      "company": "General Motors",
+      "era": "2014–present",
+      "origin": "USA",
+      "archetype": "The No-Surprises Operator",
+      "tagline": "Bad news fast. Customer first. Dress appropriately.",
+      "bio": "Started at GM at 18 inspecting fender panels. Became CEO in 2014 — six weeks after taking the job, presided over the ignition-switch recall crisis. Has pivoted GM toward an electric, autonomous future while overhauling the culture of a 100-year-old manufacturer.",
+      "avatar": { "monogram": "MB", "color": "#0079c1" },
+      "tags": ["transparency", "no-surprises", "transformation", "manufacturing", "female-leader"],
+      "practices": [
+        {
+          "category": "communication",
+          "title": "No Surprises",
+          "what": "Made 'no surprises' the operating expectation: bad news travels faster than good news, and the messenger is thanked.",
+          "why": "The ignition-switch crisis happened because problems were known internally for years before reaching the top. The no-surprises norm flips the incentive: hiding bad news becomes the worst career move, while flagging it early is what gets promoted.",
+          "source": "Barra public talks, multiple"
+        },
+        {
+          "category": "vision",
+          "title": "Triple Zero",
+          "what": "Reframed GM's mission around 'zero crashes, zero emissions, zero congestion' — a single sentence that organises the EV, autonomy, and connectivity bets.",
+          "why": "Legacy car companies struggle because their identity is internal-combustion. The triple-zero framing redefines what GM is for (safe, clean, efficient transportation) without naming the technology — so the company can change without losing itself.",
+          "source": "GM corporate strategy",
+          "sourceUrl": "https://www.gm.com/commitments/our-purpose"
+        },
+        {
+          "category": "team",
+          "title": "Two-Word Dress Code",
+          "what": "Replaced GM's 10-page dress code with two words: 'Dress appropriately.'",
+          "why": "A lengthy policy signals distrust of the people you wrote it for. Two words trust them and make the manager's job to coach the rare exception, not enforce a manual. The small symbolic change cascaded: other policies got the same treatment.",
+          "source": "Barra speeches, multiple"
+        },
+        {
+          "category": "culture",
+          "title": "Post-Crisis Transparency",
+          "what": "After the ignition-switch deaths, publicly accepted responsibility, restructured safety reporting, and refused to defend the legacy practices that caused it.",
+          "why": "Crises are also windows. Six weeks in, she could have insulated herself; instead she absorbed the blame and used the moment to dismantle the silos that had hidden the defect. The transparency rebuilt internal trust faster than denial ever could have.",
+          "source": "GM ignition-switch coverage, 2014"
+        },
+        {
+          "category": "mind",
+          "title": "Customer-First Decisions",
+          "what": "Insists meetings be framed around what's right for the customer first — even when the customer's interest is at odds with quarterly engineering or finance preferences.",
+          "why": "In a 100-year-old company, internal politics quietly outrank the customer. Asking the question forces re-anchoring. It's a simple practice, but in a legacy org, simple anchors are rarer than they sound.",
+          "source": "Barra interviews"
+        }
+      ],
+      "sources": [
+        { "label": "GM Our Purpose", "url": "https://www.gm.com/commitments/our-purpose" }
+      ]
+    },
+    {
+      "id": "sandberg",
+      "name": "Sheryl Sandberg",
+      "role": "Former COO",
+      "company": "Meta (Facebook)",
+      "era": "2008–2022 (COO)",
+      "origin": "USA",
+      "archetype": "The Operational Coach",
+      "tagline": "Sit at the table. Hire for grit. Done is better than perfect.",
+      "bio": "Joined Facebook as COO in 2008 and built the advertising business that funded the company's growth. Author of Lean In, championed candid feedback at scale, and modelled openly the work-family tension that other senior leaders quietly hid.",
+      "avatar": { "monogram": "SS", "color": "#1877f2" },
+      "tags": ["lean-in", "candor", "operations", "work-life", "female-leader"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Sit at the Table",
+          "what": "Lean In's core image: women routinely sit on the periphery of meetings — literal walls and chairs — while men take the central seats. The act of sitting at the table is both literal and metaphorical.",
+          "why": "Status is partly performative. The seat you choose signals what authority you expect to have, which shapes whether others give it to you. The practice is small, daily, and trains you to take the room rather than wait for it.",
+          "source": "Sandberg, Lean In (2013)",
+          "sourceUrl": "https://leanin.org/book"
+        },
+        {
+          "category": "routine",
+          "title": "5:30pm Hard Stop",
+          "what": "Famously left the office at 5:30pm to have dinner with her kids, then worked from home later. Did this visibly so others felt permission to.",
+          "why": "Senior leaders set the calendar norms whether or not they intend to. By leaving openly at 5:30, she made the rest of the org's evening time feel legitimate. The work still got done — but the pretence that good work required no family time died.",
+          "source": "Sandberg interviews"
+        },
+        {
+          "category": "communication",
+          "title": "Radical Candor in Practice",
+          "what": "Practised and popularised the Radical Candor framework (developed by Kim Scott while at Google): care personally AND challenge directly, simultaneously.",
+          "why": "Most managers do one or the other: either kindly vague or directly harsh. Both fail. The combination — clearly stated feedback inside a frame of obvious caring — is the only version that produces growth without resentment.",
+          "source": "Kim Scott, Radical Candor (2017)",
+          "sourceUrl": "https://www.radicalcandor.com/"
+        },
+        {
+          "category": "team",
+          "title": "Hire for Grit and Trajectory",
+          "what": "Optimises hiring for grit (sustained effort against setbacks) and trajectory of growth, over current credentials.",
+          "why": "Credentials predict the past. Grit and trajectory predict the future. In a fast-changing company, the future hire is more valuable than the present one — and the screening practice has to match.",
+          "source": "Sandberg public talks"
+        },
+        {
+          "category": "vision",
+          "title": "Done Is Better Than Perfect",
+          "what": "A maxim she pushed inside Facebook: ship the imperfect thing rather than wait for the perfect one.",
+          "why": "Perfectionism is one of the more respectable ways to avoid the discomfort of releasing your work. 'Done is better than perfect' isn't permission to be sloppy — it's permission to learn faster than the people who never ship.",
+          "source": "Sandberg interviews"
+        }
+      ],
+      "sources": [
+        { "label": "Lean In", "url": "https://leanin.org/book" },
+        { "label": "Radical Candor", "url": "https://www.radicalcandor.com/" }
+      ]
+    },
+    {
+      "id": "wolfe-herd",
+      "name": "Whitney Wolfe Herd",
+      "role": "Founder",
+      "company": "Bumble",
+      "era": "2014–present",
+      "origin": "USA",
+      "archetype": "The Inverter",
+      "tagline": "Find the unfair default. Flip it. Build the company that wouldn't exist otherwise.",
+      "bio": "Co-founded Tinder, then founded Bumble in 2014 — a dating app where women have to make the first move. Took Bumble public in 2021, becoming the youngest woman to take a US company public as CEO. Built a company on a single category-inversion.",
+      "avatar": { "monogram": "WW", "color": "#f9c63f" },
+      "tags": ["inversion", "women-first", "category-design", "kindness"],
+      "practices": [
+        {
+          "category": "mind",
+          "title": "Design for the Underrepresented User First",
+          "what": "Bumble's product design starts from women's experience — what makes online interaction feel safe and worthwhile for them — and works outward.",
+          "why": "Categories tend to optimise for the loudest user. Designing for the underserved user first produces a product the loud user can still use, but the underserved user actually wants. The constraint forces real differentiation.",
+          "source": "Wolfe Herd public talks"
+        },
+        {
+          "category": "vision",
+          "title": "Make the First Move",
+          "what": "The Bumble core mechanic: on heterosexual matches, only women can send the first message.",
+          "why": "Dating-app conventions had produced experiences women didn't want. Inverting one tiny rule — who messages first — changed the whole texture of the product. The constraint was the brand. Most category-defining startups are built on a single deliberate inversion like this.",
+          "source": "Bumble founding story",
+          "sourceUrl": "https://bumble.com/the-buzz"
+        },
+        {
+          "category": "team",
+          "title": "Women-Led C-Suite",
+          "what": "Built Bumble with a majority-female executive team — a deliberate choice, not an outcome of the talent market.",
+          "why": "Companies that say diversity matters and don't structure for it end up with the same demographics as their industry. Structural choice is the only thing that actually shifts the org chart. The C-suite signals to every other layer what's possible.",
+          "source": "Bumble corporate profile"
+        },
+        {
+          "category": "culture",
+          "title": "Honey Culture",
+          "what": "Bumble's internal culture emphasises kindness as a operating principle — internally and externally. Aggression and competitive politicking are explicitly culturally taxed.",
+          "why": "The category Bumble is in (dating, social) is prone to toxic dynamics inside companies. Making kindness a stated competitive moat — not a soft value — keeps the internal culture from reproducing the problems the product was designed to fix.",
+          "source": "Bumble values"
+        }
+      ],
+      "sources": [
+        { "label": "Bumble: The Buzz", "url": "https://bumble.com/the-buzz" }
+      ]
+    }
+  ]
+}

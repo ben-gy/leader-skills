@@ -1,0 +1,76 @@
+/* Applied via @media print. Anything with .no-print is hidden. */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  html, body {
+    background: white !important;
+    color: #18181b !important;
+  }
+
+  .no-print,
+  #header,
+  #footer,
+  .site-header,
+  .site-footer,
+  .print-actions {
+    display: none !important;
+  }
+
+  main { padding: 0; max-width: none; }
+
+  .print-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    page-break-inside: avoid;
+  }
+
+  .print-head h1 {
+    font-size: 22pt;
+    margin: 0 0 4pt;
+  }
+
+  .print-head .byline { font-size: 10.5pt; }
+  .print-head .tagline { font-size: 11pt; margin-bottom: 14pt; }
+
+  .print-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10pt 18pt;
+  }
+
+  .print-cat { page-break-inside: avoid; }
+  .print-cat h2 {
+    font-size: 9pt;
+    margin-bottom: 4pt;
+    padding-bottom: 2pt;
+    border-bottom: 0.5pt solid #999 !important;
+  }
+  .print-cat li {
+    font-size: 9pt;
+    margin-bottom: 6pt;
+    page-break-inside: avoid;
+  }
+  .print-cat li strong { font-size: 9.5pt; margin-bottom: 1pt; }
+  .print-cat .what,
+  .print-cat .why { font-size: 9pt; margin: 1pt 0; line-height: 1.35; }
+  .print-cat .what { color: #525252 !important; }
+  .print-cat .why { color: #18181b !important; }
+
+  .print-foot {
+    margin-top: 14pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid #999 !important;
+    font-size: 8pt;
+    text-align: center;
+    color: #737373 !important;
+  }
+
+  a { color: inherit !important; text-decoration: none !important; border: none !important; }
+}

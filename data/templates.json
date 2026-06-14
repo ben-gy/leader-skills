@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "blank",
+      "name": "Start Blank",
+      "tagline": "Start from a blank canvas and define your own operating system from scratch.",
+      "inspiredBy": [],
+      "seed": {
+        "archetype": "",
+        "tagline": "",
+        "practices": {
+          "mind": [],
+          "body": [],
+          "routine": [],
+          "team": [],
+          "vision": [],
+          "communication": [],
+          "culture": []
+        }
+      }
+    },
+    {
+      "id": "long-term-operator",
+      "name": "The Long-Term Operator",
+      "tagline": "Run today like Day 1, decide for a 20-year horizon, and protect your peak hours like the scarce resource they are.",
+      "inspiredBy": ["bezos", "buffett"],
+      "seed": {
+        "archetype": "The Long-Term Operator",
+        "tagline": "Decide on a 20-year horizon. Protect the morning. Stay close to the customer.",
+        "practices": {
+          "mind": [
+            {
+              "title": "Regret minimization",
+              "what": "When a decision feels heavy, ask yourself which choice you will regret less from 80.",
+              "why": "Loss aversion is loudest in the present and quiet in retrospect. Future-you is a calmer judge of what matters.",
+              "borrowedFrom": "bezos"
+            }
+          ],
+          "body": [],
+          "routine": [
+            {
+              "title": "Protect the peak block",
+              "what": "Block your best 2–4 hours each day for decisions and writing. No meetings allowed in the block.",
+              "why": "Decision quality is energy-bound. You only get one peak block per day; the rest of the day flows downhill from it.",
+              "borrowedFrom": "bezos"
+            }
+          ],
+          "team": [],
+          "vision": [
+            {
+              "title": "Day 1 mentality",
+              "what": "Treat every day as the company's first day. Stay hungry, stay close to the customer, fight stasis.",
+              "why": "Big organisations decay by drifting from customers into process. Day 1 is the permanent posture that prevents it.",
+              "borrowedFrom": "bezos"
+            }
+          ],
+          "communication": [
+            {
+              "title": "Write in full prose",
+              "what": "Major proposals as 4–6 page memos, not slides. Read them silently together at the start of the meeting.",
+              "why": "Bullets hide weak thinking. Prose exposes it. Silent reading means everyone enters discussion with shared context.",
+              "borrowedFrom": "bezos"
+            }
+          ],
+          "culture": []
+        }
+      }
+    },
+    {
+      "id": "first-principles-builder",
+      "name": "The First-Principles Builder",
+      "tagline": "Reduce every problem to physics, attack with the smallest possible technical team, and refuse analogy as a shortcut.",
+      "inspiredBy": ["musk", "collison"],
+      "seed": {
+        "archetype": "The First-Principles Builder",
+        "tagline": "Reason from physics, not analogy. Small teams. Question every requirement.",
+        "practices": {
+          "mind": [
+            {
+              "title": "First-principles reasoning",
+              "what": "Decompose every problem to its physical or mathematical constraints. Reason up; refuse reasoning by analogy.",
+              "why": "Analogies inherit assumptions. The biggest cost reductions live in noticing an assumption everyone else accepts as given.",
+              "borrowedFrom": "musk"
+            },
+            {
+              "title": "5-step engineering process",
+              "what": "Question every requirement → delete it → simplify what remains → accelerate cycle time → automate. In that order.",
+              "why": "Most engineers skip to automation. The first four steps are where the wins live. Doing them in order keeps you from optimising things that shouldn't exist.",
+              "borrowedFrom": "musk"
+            }
+          ],
+          "body": [],
+          "routine": [],
+          "team": [
+            {
+              "title": "Small expert teams",
+              "what": "Thin layers of senior individual contributors. Skip-level access is the default, not an exception.",
+              "why": "Big engineering orgs lose resolution at every layer. The smaller the team, the less translation, the better the decisions.",
+              "borrowedFrom": "musk"
+            }
+          ],
+          "vision": [
+            {
+              "title": "Mission > company",
+              "what": "Frame the company around a civilisational mission, not a market opportunity.",
+              "why": "Talented engineers will burn out chasing a quarterly target. They won't burn out chasing a goal they believe matters.",
+              "borrowedFrom": "musk"
+            }
+          ],
+          "communication": [],
+          "culture": []
+        }
+      }
+    },
+    {
+      "id": "founder-mode-ceo",
+      "name": "The Founder-Mode CEO",
+      "tagline": "Stay in the details. Refuse to delegate the thing the company is. Run product reviews at every layer.",
+      "inspiredBy": ["chesky", "jobs"],
+      "seed": {
+        "archetype": "The Founder-Mode CEO",
+        "tagline": "In the details. Design-led. Skip levels. Taste is the company.",
+        "practices": {
+          "mind": [
+            {
+              "title": "Stay in the details",
+              "what": "Reject the playbook of 'hire great people and get out of their way'. Stay deeply involved in product, design, and operating decisions.",
+              "why": "Taste is what holds a company together past 1,000 people, and taste cannot be delegated. Founder mode is the discipline of staying the company's eye on the work.",
+              "borrowedFrom": "chesky"
+            },
+            {
+              "title": "Say no to a thousand things",
+              "what": "Treat focus as subtractive. Kill more than you launch.",
+              "why": "Focus isn't choosing what to do — it's choosing what to refuse. Every yes costs the time you could have spent doing the better thing instead.",
+              "borrowedFrom": "jobs"
+            }
+          ],
+          "body": [],
+          "routine": [],
+          "team": [
+            {
+              "title": "Functional org, not divisional",
+              "what": "Organise senior leadership by function (design, engineering, product) with central ownership of the roadmap.",
+              "why": "Divisional structures optimise locally at the cost of company-level coherence. Functional structures force the leadership team to argue priorities together.",
+              "borrowedFrom": "chesky"
+            },
+            {
+              "title": "A-players only",
+              "what": "Hire only A-players. A-players hire other A-players; B-players hire C-players to feel superior.",
+              "why": "Talent density compounds or decays — there's no flat. Once you let in B-players, the org spirals downward.",
+              "borrowedFrom": "jobs"
+            }
+          ],
+          "vision": [],
+          "communication": [
+            {
+              "title": "Skip-level reviews",
+              "what": "Run product and design reviews directly, regardless of layers. Weigh in on copy, visuals, animations.",
+              "why": "Detail is fractal. The product's quality equals the median quality of every small decision underneath. Caring publicly about details calibrates the bar without a policy memo.",
+              "borrowedFrom": "chesky"
+            }
+          ],
+          "culture": [
+            {
+              "title": "Design as integrative discipline",
+              "what": "Treat design as the brief, not the polish layer applied at the end.",
+              "why": "When design is a department, it competes with engineering. When it's the brief, it's what everyone is building toward.",
+              "borrowedFrom": "jobs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "empathetic-reformer",
+      "name": "The Empathetic Reformer",
+      "tagline": "Lead with listening. Treat empathy as a source of innovation. Make growth mindset the cultural posture.",
+      "inspiredBy": ["nadella", "nooyi", "perkins"],
+      "seed": {
+        "archetype": "The Empathetic Reformer",
+        "tagline": "Learn-it-all over know-it-all. Empathy as a strategy. Listen first.",
+        "practices": {
+          "mind": [
+            {
+              "title": "Growth mindset",
+              "what": "Adopt 'learn-it-all' over 'know-it-all' as the cultural posture.",
+              "why": "Stalled organisations are usually know-it-all problems: smart people defending past correctness. Growth mindset gives the company permission to be curious again.",
+              "borrowedFrom": "nadella"
+            },
+            {
+              "title": "Empathy as innovation",
+              "what": "Treat empathy as the ability to perceive unmet, unarticulated needs — not as a soft skill.",
+              "why": "Without empathy you can only ship better versions of what already exists. The breakthroughs come from sensing what people need but cannot yet say.",
+              "borrowedFrom": "nadella"
+            }
+          ],
+          "body": [
+            {
+              "title": "Daily quiet time",
+              "what": "Build a daily ritual — meditation, journaling, or just silence — that gives the mind a place to land.",
+              "why": "Senior leadership has enormous social load. Without a daily reset, the next ten hours of intense people-work breaks you.",
+              "borrowedFrom": "perkins"
+            }
+          ],
+          "routine": [],
+          "team": [
+            {
+              "title": "Personally onboard every new hire",
+              "what": "Tell the founding story and the vision yourself, every time someone joins.",
+              "why": "Culture is set by what the founder repeats. Outsourcing the welcome outsources the canonical story — and the company drifts.",
+              "borrowedFrom": "perkins"
+            }
+          ],
+          "vision": [
+            {
+              "title": "Performance with purpose",
+              "what": "Reject the framing that profit and purpose are in tension. Treat them as the same long-horizon equation.",
+              "why": "Long-term shareholder value requires healthy products, sustainable supply chains, and a workforce that wants to be there. They are not separate strategies.",
+              "borrowedFrom": "nooyi"
+            }
+          ],
+          "communication": [
+            {
+              "title": "Listening tour as day one",
+              "what": "Spend your first weeks in a new role listening — to customers, partners, employees — rather than announcing.",
+              "why": "Listening first earns trust to make the harder calls later. The first 90 days is the only time you can ask everything.",
+              "borrowedFrom": "nadella"
+            }
+          ],
+          "culture": []
+        }
+      }
+    },
+    {
+      "id": "network-catalyst",
+      "name": "The Network Catalyst",
+      "tagline": "Build the network before you need it. Ship before you're ready. Bet on speed in winner-take-all markets.",
+      "inspiredBy": ["hoffman", "thiel"],
+      "seed": {
+        "archetype": "The Network Catalyst",
+        "tagline": "Permanent beta. Network first. Speed over polish.",
+        "practices": {
+          "mind": [
+            {
+              "title": "Permanent beta",
+              "what": "Treat yourself, your career, and your company as permanently in beta — always shipping, always learning, never declaring done.",
+              "why": "Industries change faster than careers used to. Permanent beta is the posture that makes you legible to that change.",
+              "borrowedFrom": "hoffman"
+            },
+            {
+              "title": "The contrarian question",
+              "what": "Hold one filtering question: 'What important truth do very few people agree with me on?'",
+              "why": "The answers are also the seeds of the only businesses worth building. The question filters for conviction and original thinking.",
+              "borrowedFrom": "thiel"
+            }
+          ],
+          "body": [],
+          "routine": [],
+          "team": [
+            {
+              "title": "Tour-of-duty alliance",
+              "what": "Frame employment as 2–4 year tours of duty with explicit missions and mutual investment.",
+              "why": "The lifelong-loyalty contract died decades ago. Naming the alliance honestly produces a better deal on both sides.",
+              "borrowedFrom": "hoffman"
+            }
+          ],
+          "vision": [
+            {
+              "title": "Blitzscale where it matters",
+              "what": "In winner-take-all markets, prioritise speed over efficiency. Accept high burn and operational chaos as the price.",
+              "why": "Being second in a network-effect market is being nothing. Speed to first scale is the only durable competitive advantage in that shape of game.",
+              "borrowedFrom": "hoffman"
+            },
+            {
+              "title": "Last-mover advantage",
+              "what": "Aim to be the last entrant in a category — the one whose position can't be displaced — rather than the first.",
+              "why": "First movers are usually displaced. The durable position is owning the standard, brand, or network. Plan for the endgame, not the launch.",
+              "borrowedFrom": "thiel"
+            }
+          ],
+          "communication": [
+            {
+              "title": "Network before you need it",
+              "what": "Invest in relationships in slack time — when nothing is at stake — rather than when you need something.",
+              "why": "Transactional networks don't work. By the time you 'need' your network, it's too late to build it.",
+              "borrowedFrom": "hoffman"
+            }
+          ],
+          "culture": []
+        }
+      }
+    }
+  ]
+}
