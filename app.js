@@ -66,7 +66,7 @@ function renderFooter() {
     <footer class="site-footer">
       <p>Leader Skills — explore well-documented leaders, then build your own operating system.</p>
       <p class="small">All practices cited from public sources. SVG monogram avatars are copyright-free.</p>
-      <p><span class="credit">Made by <a class="chicago-font" href="https://ben.gy" target="_blank" rel="noopener noreferrer">ben.gy</a></span></p>
+      <p><span class="credit">Made by <a class="chicago-font" href="https://ben.gy" target="_blank" rel="noopener noreferrer">ben.gy</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></span></p>
     </footer>
   `;
 }
@@ -720,7 +720,7 @@ function renderAbout() {
       <h2>What's not here</h2>
       <ul>
         <li>No photos of leaders (copyright concerns). Avatars are SVG monograms.</li>
-        <li>No accounts, no analytics, no cookies.</li>
+        <li>No accounts, no cookies — the only analytics is Cloudflare Web Analytics (anonymous, cookie-less page-view counts; no personal data, no cross-site tracking).</li>
         <li>No abstract leadership frameworks (Goleman, Lewin, etc.) — those are easy to find elsewhere.</li>
       </ul>
 
