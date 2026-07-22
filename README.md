@@ -54,6 +54,17 @@ Then visit http://localhost:8000.
 
 Every practice cites a public source. The leader bios and quotes are drawn from interviews, books, shareholder letters, and reputable journalism (Fortune, CNBC, Wharton, BCG, Lex Fridman, Lenny's Newsletter, etc.). Anything ambiguously attributed has been left out.
 
-## License
+## license
 
-Code is MIT. Profile content is paraphrased commentary on public statements and behavior; it cites sources for each claim.
+[GNU Affero General Public License v3.0 or later](./LICENSE), with an attribution
+requirement added under section 7(b) — see
+[ADDITIONAL-TERMS.md](./ADDITIONAL-TERMS.md).
+
+In short: you may run, modify, redistribute and even sell this, but if you
+distribute it — or run a modified version where other people can reach it — you
+have to publish your source under the same licence and keep the attribution. A
+separate commercial licence without those obligations is available on request:
+<hi@ben.gy>.
+
+Third-party components keep their own licences — see
+[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
